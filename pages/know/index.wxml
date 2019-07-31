@@ -1,2 +1,20 @@
-<!--pages/know/index.wxml-->
-<text>pages/know/index.wxml</text>
+<view class='contain'>
+  <image class = 'background' src='{{sliderInfo[0].image}}'></image>
+  <view class='headers' ><image src='{{sliderInfo[0].image}}'></image> </view>
+  <text class='name'>{{info.name}}</text>
+  <text class='position'>{{info.position}}</text>
+  <text class='cert'>{{info.cert}}</text>
+  <text class='address' >{{info.address}}</text>
+</view>
+<view class='wayofask'>
+  <text data-msg='咨询费用'>{{detail.price}}</text>
+  <text data-msg='咨询方式'>{{detail.ways}}</text>
+  <text data-msg='关注'>{{detail.person}}</text>
+</view>
+<view class='body'>
+  <view class='choose'></view>
+  <text class='title'>咨询师相册</text>
+  <text class='title'>擅长</text>
+  <text class='title'>个人介绍</text>
+  <text class='title'>资质与受训</text>
+</view>
