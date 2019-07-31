@@ -1,13 +1,46 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/book/index",
+    "pages/learn/index",
+    "pages/know/index",
+    "pages/personal/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0900d4",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/learn/index",
+        "text": "自助学习",
+        "iconPath": "./assets/imgs/tuwenzixun.png",
+        "selectedIconPath": "./assets/imgs/tuwenzixun.png"
+      },
+      {
+        "pagePath": "pages/know/index",
+        "text": "了解咨询",
+        "iconPath": "./assets/imgs/xiaoxi.png",
+        "selectedIconPath": "./assets/imgs/xiaoxi.png"
+      },
+      {
+        "pagePath": "pages/book/index",
+        "text": "预约咨询",
+        "iconPath": "./assets/imgs/yuyinzixun.png",
+        "selectedIconPath": "./assets/imgs/yuyinzixun.png"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "text": "我的",
+        "iconPath": "./assets/imgs/wode.png",
+        "selectedIconPath": "./assets/imgs/wode.png"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
