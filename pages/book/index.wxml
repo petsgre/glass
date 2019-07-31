@@ -1,2 +1,74 @@
-<!--pages/book/index.wxml-->
-<text>pages/book/index.wxml</text>
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+    <swiper-item>
+      <image src="{{item.activityPic}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='icon-box'>
+  <view class='icon-item'>
+    <view class='icon-item-icon' style='background-color: #2a9896;'>
+      <text class='iconfont icon-shouye-paibanguanli'></text>
+    </view>
+    <view>咨询指南</view>
+  </view>
+  <view class='icon-item'>
+    <view class='icon-item-icon' style='background-color: #21cc11;'>
+      <text class='iconfont icon-tuandui_keshi'></text>
+    </view>
+    <view>两周内可预约</view>
+  </view>
+  <view class='icon-item'>
+    <view class='icon-item-icon' style='background-color: #2e3aa7;'>
+      <text class='iconfont icon-xiaoxi'></text>
+    </view>
+    <view>实习咨询师</view>
+  </view>
+  <view class='icon-item'>
+    <view class='icon-item-icon' style='background-color: #08a744;'>
+      <text class='iconfont icon-keshi'></text>
+    </view>
+    <view>援助机构</view>
+  </view>
+</view>
+<view class='divide'></view>
+<view class='select-box'>
+  <view class='select-item'>地区
+    <text class='iconfont icon-xiajiantou'></text>
+  </view>
+  <view class='select-item'>价格
+    <text class='iconfont icon-xiajiantou'></text>
+  </view>
+  <view class='select-item'>领域
+    <text class='iconfont icon-xiajiantou'></text>
+  </view>
+  <view class='select-item'>咨询方式
+    <text class='iconfont icon-xiajiantou'></text>
+  </view>
+  <view class='select-item'>其他
+    <text class='iconfont icon-xiajiantou'></text>
+  </view>
+</view>
+<view class='book-list'>
+  <view class='book-list-item' wx:for="{{list}}">
+    <view class='book-left'>
+      <image src="https://img2.woyaogexing.com/2019/07/28/dcce6e5a0bb34aa69d7e64b065b28137!400x400.jpeg" class="slide-image" />
+    </view>
+    <view class='right'>
+      <view>
+        <text style='font-weight:bold'>{{item.name}}</text>
+        <view class='address'>
+          <text class='iconfont icon-dingwei'></text>
+          <text>上海市</text>
+        </view>
+      </view>
+      <view class='label'>国家二级心里咨询师</view>
+      <view class='summary'>啊啊时间的哈就是电话卡就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发啊啊时间的哈就是电话卡就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发</view>
+      <view class='tool'>
+        <text style='color:#deb400'>400元/次</text>
+        <text style='float:right;margin-left:8px;'><text class='iconfont icon-lovetaoxin'></text>1233</text>
+        <text style='float:right;margin-left:8px;'><text class='iconfont icon-xiaoxi-'></text>视频/当面</text>
+      </view>
+    </view>
+  </view>
+</view>

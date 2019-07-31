@@ -5,7 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    imgUrls:[
+      {
+        activityPic: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
+      },
+      {
+        activityPic: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
+      },
+    ],
+    list:[
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+      {name:'张扒皮'},
+    ]
   },
 
   /**
