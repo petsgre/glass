@@ -12,9 +12,97 @@
   <text data-msg='关注'>{{detail.person}}</text>
 </view>
 <view class='body'>
-  <view class='choose'></view>
+  <view class='choose'>
+    <view class='self active'>
+      个人简介
+      <view class='btm'></view>
+    </view>
+    <view class='worktime'>开放时段</view>
+  </view>
   <text class='title'>咨询师相册</text>
+  <view class='col-image'>
+   <view class='flue'>
+      <view class = 'self-image'>
+        <image  src='{{sliderInfo[0].image}}'>
+        </image>
+      </view>
+      <view class = 'self-image'>
+        <image  src='{{sliderInfo[0].image}}'>
+        </image>
+      </view>
+      <view class = 'self-image'>
+        <image  src='{{sliderInfo[0].image}}'>
+        </image>
+      </view>
+    </view>
+  </view>
   <text class='title'>擅长</text>
+    <view  class='boxing'>
+      <text>创伤</text>
+    </view>
+    <view  class='boxing'>
+      <text>原生家庭</text>
+    </view>
+    <view  class='boxing'>
+      <text>职业生涯</text>
+    </view>
+    <view  class='boxing'>
+      <text>跨文化</text>
+    </view>
+    <view  class='boxing'>
+      <text>焦虑</text>
+    </view>
+    <view  class='boxing'>
+      <text>关系亲密</text>
+    </view>
+    <view  class='boxing'>
+      <text>忧郁</text>
+    </view>
+    <view  class='boxing'>
+      <text>学生 </text>
+    </view>
   <text class='title'>个人介绍</text>
+  <view class='summary'>啊啊时间的哈就是电话卡就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发啊啊时间的哈就是电话卡就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发</view>
   <text class='title'>资质与受训</text>
+  <view class='icon-item-icon'>
+      <text class='iconfont icon-shouye-paibanguanli' 
+      style='color:#aaa;font-size:50rpx;background:#fff;margin-right:40rpx;'></text>
+      <text>已获证书：</text>
+    </view>
+    <text style='display:inline-block;margin: 20rpx 0 40rpx 100rpx;'>
+    国家二级心里咨询师</text>
+   <view class='icon-item-icon'>
+      <text class='iconfont icon-shouye-paibanguanli' 
+      style='color:#aaa;font-size:50rpx;background:#fff;margin-right:40rpx;'></text>
+      <text>系统培训：</text>
+    </view>
+    <text style='display:inline-block;margin: 20rpx 0 40rpx 100rpx;'>
+    国家二级心里咨询师</text>
+  <text class='title'>咨询流派</text>
+  <hr />
+  <view  class='boxing'>
+      <text>心理动力 </text>
+  </view>
+  <text class='title'>低价咨询</text>
+  <view class='summary'>啊啊时间的哈就啊哈就是电话卡就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发</view>
+  <text class='title'>费用说明</text>
+  <view class='summary'>400/次</view>
+  <text class='title'>给来访者的话</text>
+  <view class='summary'>是电话卡就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发啊</view>
+  <text style='width:100%;margin:50rpx;text-align:center;display:inline-block'>-郑重声明-</text>
+<text>就是打开结核杆菌是奶茶洒大家返回山东警方很快就阿斯顿回家卡会发生的空间哈开机速度还是独家开发</text>
+</view>
+
+<view class='bottom'>
+<view class='btms' style='border-right:1px  solid #999;'>
+  <text class='iconfont icon-xiaoxi-'></text>
+   <text style='margin-left:8rpx;'> 客服</text>
+  </view>
+  <view class='btms' >
+  <text class='iconfont icon-lovetaoxin'></text>
+   <text style='margin-left:8rpx;'> 关注</text>
+  </view>
+  <view class='btms1' >
+   <text style='margin-left:8rpx;'> 预约Ta</text>
+  </view>
 </view>

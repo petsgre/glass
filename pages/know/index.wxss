@@ -1,5 +1,5 @@
 page {
-  background: #feefff;
+  background: lightgray;
 }
 .contain {
   width: 750rpx;
@@ -91,15 +91,46 @@ page {
 }
 .body {
   margin-top: 30rpx;
+  margin-bottom: 120rpx;
   padding: 0 40rpx;
   background: #fff;
+  overflow: hidden;
+}
+.choose {
+  display: flex;
+  align-items: center;
+  height: 160rpx;
+}
+.choose> view {
+  font-size: 36rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  color: #aaa;
+}
+.active {
+  color: #0055ff !important;
+}
+.btm {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-40rpx);
+  height: 6rpx;
+  width: 80rpx;
+  background: #0055ff;
+  margin: 0 auto;
 }
 .title {
+  width:100%;
   font-size: 34rpx;
   display: flex;
   align-items: center;
   font-weight: bold;
-  line-height: 
+  margin:  20rpx 0;
 }
 .title::before {
   content: '';
@@ -107,4 +138,98 @@ page {
   height: 30rpx;
   background: #0055ff;
   margin-right: 25rpx;
+}
+.col-image {
+  overflow: hidden;
+  height: 200rpx;
+}
+.flue {
+  height: 200rpx;
+  width: 1000px;
+  display: flex;
+
+}
+.self-image {
+  height: 100%;
+  width: 260rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+
+}
+.self-image:nth-of-type(n+2) {
+  margin-left: 20rpx;
+}
+.self-image image {
+  width: 100%;
+  height: 100%;
+}
+.boxing {
+  color: #0055ff;
+  padding: 10rpx 30rpx;
+  float: left;
+  border-radius: 12rpx;
+  background: #d1d8df99;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.summary {
+  font-size: 30rpx;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 2px 0 8px 0;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.icon-item-icon {
+  display: flex;
+  align-items: center;
+  /* color: #fff; */
+}
+
+
+
+
+
+
+
+
+.bottom {
+  display: flex;
+  height: 120rpx;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow:0 -1px 2px 0 #eee;
+  background: #fff;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.btms {
+  flex: 1;
+  height: 40rpx;
+  text-align: center;
+}
+.btms1 {
+  width: 40%;
+}
+.btms1 text {
+  display: inline-block;
+  height: 80rpx;
+  border-radius: 12rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  background: #0055ff;
 }

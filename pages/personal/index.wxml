@@ -1,2 +1,1 @@
-<!--pages/personal/index.wxml-->
-<text>pages/personal/index.wxml</text>
+<navigator url='/pages/know/index' >跳转</navigator>
