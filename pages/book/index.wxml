@@ -50,7 +50,7 @@
   </view>
 </view>
 <view class='book-list'>
-  <view class='book-list-item' wx:for="{{list}}">
+  <view class='book-list-item' wx:for="{{list}}" wx:key="{{item}}">
     <view class='book-left'>
       <image src="https://img2.woyaogexing.com/2019/07/28/dcce6e5a0bb34aa69d7e64b065b28137!400x400.jpeg" class="slide-image" />
     </view>
